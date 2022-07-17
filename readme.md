@@ -9,7 +9,7 @@ Bayesian data analysis in practice more challenging.  The aim of this course is
 to provide a solid introduction to Bayesian methods, both theoretically and
 practically.  We will begin by teaching the fundamental concepts of Bayesian
 inference and Bayesian modelling, including how Bayesian methods differ from
-their classical statistics counterparts, and then provide a solid introdction
+their classical statistics counterparts, and then provide a solid introduction
 to how to do Bayesian data analysis with real world problems.  Throughout this
 course, we will be using, via the brms package, Stan based Markov Chain Monte
 Carlo (MCMC) methods, which is argubly the state-of-the-art approach to modern
