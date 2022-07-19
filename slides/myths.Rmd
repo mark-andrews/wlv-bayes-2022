@@ -1,0 +1,43 @@
+---
+title: "Bayesian Methods: Some Myths"
+output: beamer_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Myth 1
+
+* p-values etc are irredeemably flawed and the only correct way to statistically analyse data is with Bayesian methods
+* While Bayesian methods offer real advantages, both practical and conceptual, classical methods and p-values etc are neither practically useless or conceptually flawed.
+
+# Myth 2
+
+* Classical and Bayesian methods are mutually exclusive.
+* Both approaches can be used without conceptual or theoretical inconsistency.
+
+# Myth 3
+
+* p-values do not tell the probability the (null) hypothesis is true, but Bayesian methods can tell you this.
+* Bayesian methods allow you to make probabilistic statements about hypothesis etc, *but* these are all contingent on all the assumptions being correct. 
+
+# Myth 4
+
+* The misuse of p-values etc led to the replication crisis. Bayesian methods are needed to solve this crisis.
+* The misuse of p-values did not lead to the replication crisis. Bayesian methods can be misused too and you can "p hack" with Bayes too. 
+
+# Myth 5
+
+* In classical methods, we test (null) hypothesis with p-values. In Bayesian methods, we test (null) hypotheses with Bayes factors.
+* Bayes factors do not need to be used at all. They are not the defining feature of Bayesian methods. Also, Bayes factors are as prone to misunderstanding and misuse as p-values.
+
+# Myth 6
+
+* Classical methods let the data do the talking. Bayesian methods are inherently subjective.
+* In both cases, we reason on the basis of models that are based on data and background assumptions.
+
+# Myth 7
+
+* Bayesian methods will never catch on.
+* Bayesian methods have already caught on.
