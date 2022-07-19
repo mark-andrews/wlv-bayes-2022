@@ -6,3 +6,4 @@
 # Day 2
 
 * [Session 1](https://vimeo.com/731341946)
+* [Session 2](https://vimeo.com/731402808)
