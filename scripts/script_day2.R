@@ -61,3 +61,17 @@ bernoulli_posterior_plot(infections, fatalities, alpha = 1, beta = 10) +
 
 bernoulli_posterior_summary(infections, fatalities, alpha = 1, beta = 10)
 
+
+
+# Sample from a normal distribution ---------------------------------------
+
+x <- rnorm(1e6, mean = 100, sd = 15)
+
+mean(x) # sample mean
+sd(x)   # sample sd
+
+mean(x > 90) # what is probability of being above 90
+
+mean((x > 90) & (x < 100)) # what is probability of being between 90 and 100
+
+quantile(x, probs = c(0.025, 0.975)) # 95% interval 
