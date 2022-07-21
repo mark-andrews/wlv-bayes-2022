@@ -16,3 +16,4 @@
 # Day 4
 
 * [Session 1](https://vimeo.com/732083852)
+* [Session 2](https://vimeo.com/732153145)
