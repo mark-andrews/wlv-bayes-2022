@@ -116,3 +116,7 @@ anova(M_freq_4, M_freq_4_null) #
 
 M_bayes_8 <- brm(weight ~ group, data = PlantGrowth) 
 M_bayes_8_null <- brm(weight ~ 1, data = PlantGrowth)
+
+# for Bayes factors `save_pars = save_pars(all = TRUE)` is required
+M_bayes_8 <- brm(weight ~ group, data = PlantGrowth, save_pars = save_pars(all = TRUE))
+M_bayes_8_null <- brm(weight ~ 1, data = PlantGrowth, save_pars = save_pars(all = TRUE))
